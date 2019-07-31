@@ -1,0 +1,210 @@
+/*not actually a material variable*/
+$mdc-border-radius: 0;
+
+:root {
+  --mdc-theme-primary: #{$dark-gray};
+  --mdc-theme-secondary: #{$mid-gray};
+  --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
+}
+
+/* ripple overrides */
+/* TODO: get rid of ripple js? */
+.mdc-ripple-surface, .mdc-list-item {
+  &.mdc-ripple-upgraded {
+    --mdc-ripple-fg-opacity: 0 !important;
+  }
+}
+
+/* textfields */
+.mdc-text-field__input {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.mdc-text-field--outlined .mdc-text-field__input{
+  padding: 12px 16px 12px;
+}
+
+.mdc-text-field:not(.mdc-text-field--textarea){
+  height: 3.5rem;
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {
+  color: #{$dark-gray};
+}
+
+.mdc-text-field--outlined, .mdc-text-field--textarea {
+  .mdc-notched-outline {
+    .mdc-notched-outline__leading, .mdc-notched-outline__trailing {
+      border-radius: $mdc-border-radius;
+    }
+  }
+}
+
+/* buttons */
+.mdc-button {
+  border-radius: $mdc-border-radius;
+  --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
+
+  &.mdc-button--raised {
+    &:active, &:hover {
+      background-color: $green;
+      color: white;
+    }
+    &.secondary-button {
+      background-color: white;
+      color: #{$dark-gray};
+      box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.16), 0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 1px 5px 0px rgba(0, 0, 0, 0.08);
+      &:disabled {
+        cursor: not-allowed !important;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);
+        background-color: rgba(0, 0, 0, 0.12);
+        color: rgba(0, 0, 0, 0.37);
+      }
+      &:hover {
+        background-color: $near-white;
+        box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+      }
+      &:active {
+        box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+      }
+    }
+    &.bg-blue {
+      background-color: $blue;
+      &:disabled {
+        color: $blue;
+        background-color: lighten($blue, 50%);
+      }
+    }
+    &.bg-green {
+      background-color: $green;
+      &:disabled {
+        color: $green;
+        background-color: lighten($green, 50%);
+      }
+    }
+    &.bg-red {
+      background-color: $red;
+      &:disabled {
+        color: $red;
+        background-color: lighten($red, 50%);
+      }
+    }
+  }
+
+  &.mdc-button--unelevated {
+    &:active, &:hover {
+      background-color: $green;
+      color: white;
+    }
+    &.secondary-button {
+      background-color: $light-gray;
+      color: $dark-gray;
+      &:disabled {
+        cursor: not-allowed;
+        background-color: rgba(0, 0, 0, 0.12);
+        color: rgba(0, 0, 0, 0.37);
+      }
+      &:hover {
+        background-color: $light-green;
+        color: $green;
+      }
+      &:active {
+        background-color: $green;
+        color: white;
+      }
+    }
+    &.ternary-button {
+      background-color: $moon-gray;
+      color: $white;
+      &:disabled {
+        cursor: default;
+        background-color: rgba(0, 0, 0, 0.12);
+        color: rgba(0, 0, 0, 0.37);
+      }
+      &:hover, &:active {
+        background-color: $gray;
+        color: $white;
+      }
+    }
+  }
+}
+
+.mdc-fab {
+  &.flat {
+    box-shadow: none;
+  }
+}
+
+/* slider */
+.mdc-slider:not(.mdc-slider--disabled) .mdc-slider__track-container {
+  background-color: rgba(125, 125, 125, 0.25);
+}
+
+/* lists */
+.mdc-list-item__secondary-text {
+  margin-bottom: 0;
+}
+
+.mdc-list-item__graphic {
+  margin-right: 1rem;
+  svg {
+    display: block;
+  }
+}
+
+.mdc-list {
+  .mdc-list-item {
+    .mdc-list-item__primary-text, .mdc-list-item__secondary-text  {
+      &:before {
+        display: none;
+      }
+    }
+    &:focus, &:focus-within, &:active {
+      &::before, &::after {
+        opacity: 0 !important;
+      }
+    }
+    &:focus, &:focus-within {
+      background-color: $light-gray;
+    }
+    &:active {
+      background-color: $smooth-gray;
+    }
+  }
+}
+
+.mdc-list-item--activated {
+  &:hover, &:focus, &:focus-within, &:active {
+    &::before, &::after{
+      opacity: 0 !important;
+    }
+  }
+}
+
+.mdc-list-item--disabled {
+  pointer-events: none;
+}
+
+.mdc-switch__native-control {
+  top: 9px;
+  height: 30px;
+}
+
+.mdc-linear-progress {
+  &.thin {
+    height: 2px;
+  }
+}
+
+/* dialogs */
+
+.mdc-dialog {
+  .mdc-dialog__surface {
+    border-radius: $mdc-border-radius;
+  }
+}
+
+/*Radio Group*/
+.mdc-radio {
+  --mdc-theme-secondary: #{$green};
+}
