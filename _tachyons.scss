@@ -26,71 +26,71 @@
 
 
  //  External Library Includes 
- @import 'node_modules/tachyons-sass/scss/normalize';
+ @import 'tachyons-sass/scss/normalize';
 
 
 //  Variables 
 //  Importing here will allow you to override any variables in the modules 
 
-@import 'node_modules/tachyons-sass/scss/variables';
+@import 'tachyons-sass/scss/variables';
 @import '_tachyons_variable_overrides';
 
 //  Debugging 
-@import 'node_modules/tachyons-sass/scss/debug-children';
-@import 'node_modules/tachyons-sass/scss/debug-grid';
+@import 'tachyons-sass/scss/debug-children';
+@import 'tachyons-sass/scss/debug-grid';
 
 //  Uncomment out the line below to help debug layout issues 
-//  @import 'node_modules/tachyons-sass/scss/debug'; 
+//  @import 'tachyons-sass/scss/debug'; 
 
  //  Modules 
- @import 'node_modules/tachyons-sass/scss/box-sizing';
- @import 'node_modules/tachyons-sass/scss/aspect-ratios';
- @import 'node_modules/tachyons-sass/scss/images';
- @import 'node_modules/tachyons-sass/scss/background-size';
- @import 'node_modules/tachyons-sass/scss/background-position';
- @import 'node_modules/tachyons-sass/scss/outlines';
- @import 'node_modules/tachyons-sass/scss/borders';
- @import 'node_modules/tachyons-sass/scss/border-colors';
- @import 'node_modules/tachyons-sass/scss/border-radius';
- @import 'node_modules/tachyons-sass/scss/border-style';
- @import 'node_modules/tachyons-sass/scss/border-widths';
- @import 'node_modules/tachyons-sass/scss/box-shadow';
- @import 'node_modules/tachyons-sass/scss/code';
- @import 'node_modules/tachyons-sass/scss/coordinates';
- @import 'node_modules/tachyons-sass/scss/clears';
- @import 'node_modules/tachyons-sass/scss/flexbox';
- @import 'node_modules/tachyons-sass/scss/display';
- @import 'node_modules/tachyons-sass/scss/floats';
- @import 'node_modules/tachyons-sass/scss/font-family';
- @import 'node_modules/tachyons-sass/scss/font-style';
- @import 'node_modules/tachyons-sass/scss/font-weight';
- @import 'node_modules/tachyons-sass/scss/forms';
- @import 'node_modules/tachyons-sass/scss/heights';
- @import 'node_modules/tachyons-sass/scss/letter-spacing';
- @import 'node_modules/tachyons-sass/scss/line-height';
- @import 'node_modules/tachyons-sass/scss/links';
- @import 'node_modules/tachyons-sass/scss/lists';
- @import 'node_modules/tachyons-sass/scss/max-widths';
- @import 'node_modules/tachyons-sass/scss/widths';
- @import 'node_modules/tachyons-sass/scss/overflow';
- @import 'node_modules/tachyons-sass/scss/position';
- @import 'node_modules/tachyons-sass/scss/opacity';
- @import 'node_modules/tachyons-sass/scss/rotations';
- @import 'node_modules/tachyons-sass/scss/skins';
- @import 'node_modules/tachyons-sass/scss/skins-pseudo';
- @import 'node_modules/tachyons-sass/scss/spacing';
- @import 'node_modules/tachyons-sass/scss/negative-margins';
- @import 'node_modules/tachyons-sass/scss/tables';
- @import 'node_modules/tachyons-sass/scss/text-decoration';
- @import 'node_modules/tachyons-sass/scss/text-align';
- @import 'node_modules/tachyons-sass/scss/text-transform';
- @import 'node_modules/tachyons-sass/scss/type-scale';
- @import 'node_modules/tachyons-sass/scss/typography';
- @import 'node_modules/tachyons-sass/scss/utilities';
- @import 'node_modules/tachyons-sass/scss/visibility';
- @import 'node_modules/tachyons-sass/scss/white-space';
- @import 'node_modules/tachyons-sass/scss/vertical-align';
- @import 'node_modules/tachyons-sass/scss/hovers';
- @import 'node_modules/tachyons-sass/scss/z-index';
- @import 'node_modules/tachyons-sass/scss/nested';
- @import 'node_modules/tachyons-sass/scss/styles';
+ @import 'tachyons-sass/scss/box-sizing';
+ @import 'tachyons-sass/scss/aspect-ratios';
+ @import 'tachyons-sass/scss/images';
+ @import 'tachyons-sass/scss/background-size';
+ @import 'tachyons-sass/scss/background-position';
+ @import 'tachyons-sass/scss/outlines';
+ @import 'tachyons-sass/scss/borders';
+ @import 'tachyons-sass/scss/border-colors';
+ @import 'tachyons-sass/scss/border-radius';
+ @import 'tachyons-sass/scss/border-style';
+ @import 'tachyons-sass/scss/border-widths';
+ @import 'tachyons-sass/scss/box-shadow';
+ @import 'tachyons-sass/scss/code';
+ @import 'tachyons-sass/scss/coordinates';
+ @import 'tachyons-sass/scss/clears';
+ @import 'tachyons-sass/scss/flexbox';
+ @import 'tachyons-sass/scss/display';
+ @import 'tachyons-sass/scss/floats';
+ @import 'tachyons-sass/scss/font-family';
+ @import 'tachyons-sass/scss/font-style';
+ @import 'tachyons-sass/scss/font-weight';
+ @import 'tachyons-sass/scss/forms';
+ @import 'tachyons-sass/scss/heights';
+ @import 'tachyons-sass/scss/letter-spacing';
+ @import 'tachyons-sass/scss/line-height';
+ @import 'tachyons-sass/scss/links';
+ @import 'tachyons-sass/scss/lists';
+ @import 'tachyons-sass/scss/max-widths';
+ @import 'tachyons-sass/scss/widths';
+ @import 'tachyons-sass/scss/overflow';
+ @import 'tachyons-sass/scss/position';
+ @import 'tachyons-sass/scss/opacity';
+ @import 'tachyons-sass/scss/rotations';
+ @import 'tachyons-sass/scss/skins';
+ @import 'tachyons-sass/scss/skins-pseudo';
+ @import 'tachyons-sass/scss/spacing';
+ @import 'tachyons-sass/scss/negative-margins';
+ @import 'tachyons-sass/scss/tables';
+ @import 'tachyons-sass/scss/text-decoration';
+ @import 'tachyons-sass/scss/text-align';
+ @import 'tachyons-sass/scss/text-transform';
+ @import 'tachyons-sass/scss/type-scale';
+ @import 'tachyons-sass/scss/typography';
+ @import 'tachyons-sass/scss/utilities';
+ @import 'tachyons-sass/scss/visibility';
+ @import 'tachyons-sass/scss/white-space';
+ @import 'tachyons-sass/scss/vertical-align';
+ @import 'tachyons-sass/scss/hovers';
+ @import 'tachyons-sass/scss/z-index';
+ @import 'tachyons-sass/scss/nested';
+ @import 'tachyons-sass/scss/styles';
