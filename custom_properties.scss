@@ -12,3 +12,8 @@
     --mdc-ripple-fg-opacity: 0 !important;
   }
 }
+
+/*Radio Group*/
+.mdc-radio {
+  --mdc-theme-secondary: #{$green};
+}
