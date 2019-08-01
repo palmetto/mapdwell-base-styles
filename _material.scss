@@ -30,7 +30,6 @@ $mdc-border-radius: 0;
 /* buttons */
 .mdc-button {
   border-radius: $mdc-border-radius;
-  --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
 
   &.mdc-button--raised {
     &:active, &:hover {
