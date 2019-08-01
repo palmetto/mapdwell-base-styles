@@ -1,19 +1,6 @@
 /*not actually a material variable*/
 $mdc-border-radius: 0;
 
-:root {
-  --mdc-theme-primary: #{$dark-gray};
-  --mdc-theme-secondary: #{$mid-gray};
-  --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
-}
-
-/* ripple overrides */
-/* TODO: get rid of ripple js? */
-.mdc-ripple-surface, .mdc-list-item {
-  &.mdc-ripple-upgraded {
-    --mdc-ripple-fg-opacity: 0 !important;
-  }
-}
 
 /* textfields */
 .mdc-text-field__input {
