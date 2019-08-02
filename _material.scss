@@ -31,6 +31,10 @@ $mdc-border-radius: 0;
 .mdc-button {
   border-radius: $mdc-border-radius;
 
+  &.orange {
+    color: $orange;
+  }
+
   &.mdc-button--raised {
     &:active, &:hover {
       background-color: $green;
