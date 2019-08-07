@@ -246,7 +246,7 @@
 }
 
 
-@media (--breakpoint-not-small) {
+@media screen and (min-width: 30em) {
   .basis-50-ns {
     flex-basis: 50%;
   }
