@@ -3,6 +3,9 @@
   --mdc-theme-primary: #{$dark-gray};
   --mdc-theme-secondary: #{$mid-gray};
   --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
+
+  /* media queries for defining  tachyons style helpers*/
+  --breakpoint-not-small: screen and (min-width: 30em);
 }
 
 /* ripple overrides */

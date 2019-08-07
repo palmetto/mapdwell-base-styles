@@ -245,6 +245,17 @@
   flex-basis: 33%;
 }
 
+
+@media (--breakpoint-not-small) {
+  .basis-50-ns {
+    flex-basis: 50%;
+  }
+  .basis-33-ns {
+    flex-basis: 33%;
+  }
+}
+
+
 /* SVG */
 .default-icon {
   @extend %default-icon;
