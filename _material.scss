@@ -34,6 +34,9 @@ $mdc-border-radius: 0;
   &.orange {
     color: $orange;
   }
+  &.green {
+    color: $green;
+  }
 
   &.mdc-button--raised {
     &:active, &:hover {

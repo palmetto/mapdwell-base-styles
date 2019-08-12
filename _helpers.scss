@@ -246,7 +246,7 @@
 }
 
 
-@media screen and (min-width: 30em) {
+@media #{$breakpoint-not-small} {
   .basis-50-ns {
     flex-basis: 50%;
   }
@@ -307,9 +307,16 @@
   @extend %bg-disabled-green;
 }
 
+.bg-blue-gradient-light {
+  background: linear-gradient(90deg, lighten($blue, 30%), lighten($blue, 20%));
+}
 .bg-blue-gradient {
   background: linear-gradient(90deg, lighten($blue, 20%), $blue);
 }
+.bg-blue-gradient-dark {
+  background: linear-gradient(90deg, $blue, darken($blue, 20%));
+}
+
 .bg-green-gradient {
   background: linear-gradient(90deg, lighten($green, 20%), $green);
 }
