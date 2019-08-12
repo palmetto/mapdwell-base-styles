@@ -1,0 +1,28 @@
+$fast-animation-time: .15s;
+$animation-time: .3s;
+
+%transition-color {
+  transition: color #{$fast-animation-time} ease-out;
+}
+
+%transition-fill {
+  transition: fill #{$fast-animation-time} ease-in-out;
+}
+
+.svg-arrow {
+  transition: transform #{$animation-time} ease-in-out;
+  transform-origin: center center;
+
+  &.up {
+    transform: rotate(90deg);
+  }
+  &.down {
+    transform: rotate(-90deg);
+  }
+  &.left {
+    transform: rotate(0deg);
+  }
+  &.right {
+    transform: rotate(180deg);
+  }
+}
