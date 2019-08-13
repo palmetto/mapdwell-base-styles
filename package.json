@@ -1,6 +1,6 @@
 {
   "name": "base-styles",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shared styles and variables for front end and back board Fluxboard apps.",
   "main": "index.js",
   "scripts": {
