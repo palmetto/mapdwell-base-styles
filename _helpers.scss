@@ -179,6 +179,15 @@
   width: 40rem;
 }
 
+
+.mw800 {
+  max-width: 800px
+}
+
+.mw1200 {
+  max-width: 1200px
+}
+
 .min-w3 {
   min-width: 4rem;
 }
@@ -251,6 +260,15 @@
     flex-basis: 50%;
   }
   .basis-33-ns {
+    flex-basis: 33%;
+  }
+}
+
+@media #{$breakpoint-large} {
+  .basis-50-l {
+    flex-basis: 50%;
+  }
+  .basis-33-l {
     flex-basis: 33%;
   }
 }
