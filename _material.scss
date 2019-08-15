@@ -40,11 +40,11 @@ $mdc-border-radius: 0;
   &.green {
     color: $green;
   }
-  &.linkedin-color {
-    color: #0077B5;
+  &.linkedin {
+    color: $linkedin-color;
   }
-  &.facebook-color {
-    color: #3C5A99;
+  &.facebook {
+    color: $facebook-color;
   }
 
   &.mdc-button--raised {
