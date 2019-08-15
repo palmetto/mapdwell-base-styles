@@ -40,6 +40,12 @@ $mdc-border-radius: 0;
   &.green {
     color: $green;
   }
+  &.linkedin {
+    color: $linkedin-color;
+  }
+  &.facebook {
+    color: $facebook-color;
+  }
 
   &.mdc-button--raised {
     &:active, &:hover {
