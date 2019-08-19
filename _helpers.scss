@@ -261,25 +261,25 @@
 
 @media #{$breakpoint-not-small} {
   .grow-1-ns {
-    flex-grow: 1;
+    @extend .grow-1;
   }
   .grow-0-ns {
-    flex-grow: 0;
+    @extend .grow-0;
   }
   .shrink-1-ns {
-    flex-shrink: 1;
+    @extend .shrink-1;
   }
   .shrink-0-ns {
-    flex-shrink: 0;
+    @extend .shrink-0;
   }
   .basis-auto-ns {
-    flex-basis: auto;
+    @extend .basis-auto;
   }
   .basis-50-ns {
-    flex-basis: 50%;
+    @extend .basis-50;
   }
   .basis-33-ns {
-    flex-basis: 33%;
+    @extend .basis-33;
   }
 }
 
