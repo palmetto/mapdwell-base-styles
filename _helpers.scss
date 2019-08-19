@@ -260,6 +260,21 @@
 
 
 @media #{$breakpoint-not-small} {
+  .grow-1-ns {
+    flex-grow: 1;
+  }
+  .grow-0-ns {
+    flex-grow: 0;
+  }
+  .shrink-1-ns {
+    flex-shrink: 1;
+  }
+  .shrink-0-ns {
+    flex-shrink: 0;
+  }
+  .basis-auto-ns {
+    flex-basis: auto;
+  }
   .basis-50-ns {
     flex-basis: 50%;
   }
