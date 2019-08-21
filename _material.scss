@@ -53,6 +53,30 @@ $mdc-border-radius: 0;
     color: $facebook-color;
   }
 
+  &.f1 {
+    font-size: $font-size-1;
+  }  
+  &.f2 {
+    font-size: $font-size-2;
+  }
+  &.f3 {
+    font-size: $font-size-3;
+    
+  }
+  &.f4 {
+    font-size: $font-size-4;
+  }
+  &.f5 {
+    font-size: $font-size-5;
+  }
+  &.f6 {
+    font-size: $font-size-6;
+  }
+  &.f7 {
+    font-size: $font-size-7;
+  }
+
+
   &.mdc-button--raised {
     &:active, &:hover {
       background-color: $green;
