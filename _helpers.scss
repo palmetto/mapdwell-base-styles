@@ -257,7 +257,9 @@
 .basis-33 {
   flex-basis: 33%;
 }
-
+.basis-25 {
+  flex-basis: 25%;
+}
 
 @media #{$breakpoint-not-small} {
   .grow-1-ns {
@@ -280,6 +282,9 @@
   }
   .basis-33-ns {
     flex-basis: 33%;
+  }
+  .basis-25-ns {
+    flex-basis: 25%;
   }
 }
 
@@ -334,6 +339,12 @@
 .rot-45 {
   transform: rotate(45deg);
 }
+
+/* COLOR */
+.med-blue {
+  color: $med-blue;
+}
+
 
 /* BACKGROUND */
 .bg-transparent-gray {
