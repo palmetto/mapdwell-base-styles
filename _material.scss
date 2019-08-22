@@ -31,20 +31,29 @@ $mdc-border-radius: 0;
 .mdc-button {
   border-radius: $mdc-border-radius;
 
-  &.orange {
-    color: $orange;
-  }
   &.blue {
     color: $blue;
   }
-  &.light-blue {
-    color: $light-blue;
+  &.dark-green {
+    color: $dark-green;
   }
   &.green {
     color: $green;
   }
+  &.light-blue {
+    color: $light-blue;
+  }
   &.mid-gray {
     color: $mid-gray;
+  }
+  &.orange {
+    color: $orange;
+  }
+  &.pink {
+    color: $pink;
+  }
+  &.yellow {
+    color: $yellow;
   }
   &.linkedin {
     color: $linkedin-color;
