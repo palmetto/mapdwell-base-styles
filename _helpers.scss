@@ -295,6 +295,18 @@
   .basis-33-l {
     flex-basis: 33%;
   }
+  .basis-25-l {
+    flex-basis: 25%;
+  }
+}
+
+@media #{$breakpoint-medium} {
+  .basis-50-m {
+    flex-basis: 50%;
+  }
+  .basis-33-m {
+    flex-basis: 33%;
+  }
 }
 
 
