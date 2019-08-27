@@ -286,6 +286,14 @@
   .basis-25-ns {
     flex-basis: 25%;
   }
+  .ph45-ns {
+    padding-right: 3.25rem;
+    padding-left: 3.25rem;
+  }
+  .ph55-ns {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
 }
 
 @media #{$breakpoint-large} {
