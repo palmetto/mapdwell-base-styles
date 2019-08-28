@@ -1,0 +1,10 @@
+$fast-animation-time: .15s;
+$animation-time: .3s;
+
+%transition-color {
+  transition: color #{$fast-animation-time} ease-out;
+}
+
+%transition-fill {
+  transition: fill #{$fast-animation-time} ease-in-out;
+}

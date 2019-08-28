@@ -8,16 +8,7 @@
   --breakpoint-not-small: screen and (min-width: 30em);
 }
 
-/* ripple overrides */
-/* TODO: get rid of ripple js? */
-.mdc-ripple-surface, .mdc-list-item {
-  &.mdc-ripple-upgraded {
-    --mdc-ripple-fg-opacity: 0 !important;
-  }
-}
-
-
-/* buttons */
+/* Buttons */
 .mdc-button {
   --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
 }
@@ -25,4 +16,12 @@
 /*Radio Group*/
 .mdc-radio {
   --mdc-theme-secondary: #{$green};
+
+
+/* ripple overrides */
+/* TODO: get rid of ripple js? */
+.mdc-ripple-surface, .mdc-list-item {
+  &.mdc-ripple-upgraded {
+    --mdc-ripple-fg-opacity: 0 !important;
+  }
 }
