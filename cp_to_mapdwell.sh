@@ -1,1 +1,1 @@
-cp * ../mapdwell/node_modules/base-styles
+cp -r * ../mapdwell/node_modules/base-styles

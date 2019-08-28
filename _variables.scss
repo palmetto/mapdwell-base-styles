@@ -1,43 +1,4 @@
-@import 'node_modules/tachyons-sass/scss/_variables';
-@import '_tachyons_variable_overrides';
-
-$transparent-black: rgba(0, 0, 0, 0.85);
-$transparent-white: rgba(255, 255, 255, 0.85);
-$disabled-green: #D4DEBC;
-
-%bg-transparent-black {
-  background-color: $transparent-black;
-}
-%bg-transparent-white {
-  background-color: $transparent-white;
-}
-%bg-disabled-green {
-  background-color: $disabled-green;
-}
-
-%default-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$moon-gray};
-  }
-}
-
-%white-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$white};
-  }
-}
-
-%light-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$mid-gray};
-  }
-}
-
-$navbar-height: 5.3rem;
-$body-color: $dark-gray;
-
-$linkedin-color: #0077B5;
-$facebook-color: #3C5A99;
+@import "variables/_animation";
+@import 'tachyons-sass/scss/variables';
+@import 'variables/_tachyons_variable_overrides';
+@import "variables/_colors";

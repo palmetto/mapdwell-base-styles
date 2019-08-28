@@ -1,1 +1,1 @@
-cp * ../solarsystem/node_modules/base-styles
+cp -r * ../solarsystem/node_modules/base-styles
