@@ -251,6 +251,9 @@
 .basis-auto {
   flex-basis: auto;
 }
+.basis-100 {
+  flex-basis: 100%;
+}
 .basis-50 {
   flex-basis: 50%;
 }
@@ -277,6 +280,9 @@
   .basis-auto-ns {
     flex-basis: auto;
   }
+  .basis-100-ns {
+    flex-basis: 100%;
+  }
   .basis-50-ns {
     flex-basis: 50%;
   }
@@ -297,6 +303,9 @@
 }
 
 @media #{$breakpoint-large} {
+  .basis-100-l {
+    flex-basis: 100%;
+  }
   .basis-50-l {
     flex-basis: 50%;
   }
@@ -309,6 +318,9 @@
 }
 
 @media #{$breakpoint-medium} {
+  .basis-100-m {
+    flex-basis: 100%;
+  }
   .basis-50-m {
     flex-basis: 50%;
   }
