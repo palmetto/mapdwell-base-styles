@@ -20,3 +20,7 @@
     opacity: 1;
   }
 }
+
+.hover-bg-dark-green:hover, .hover-bg-dark-green:focus {
+  background-color: darken($green, 10%);
+}
