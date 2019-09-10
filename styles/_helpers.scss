@@ -304,6 +304,23 @@
     padding-right: 6rem;
     padding-left: 6rem;
   }
+  .ml35-ns {
+    margin-left: 1.5rem;
+  }
+  .mr35-ns {
+    margin-right: 1.5rem;
+  }
+
+  .min-h3-ns {
+    min-height: 6rem;
+  }
+  .min-h4-ns {
+    min-height: 8rem;
+  }
+  .min-h5-ns {
+    min-height: 16rem;
+  }
+
 }
 
 @media #{$breakpoint-large} {
@@ -354,6 +371,18 @@
   svg rect, svg path {
     @extend %transition-fill;
     fill: #CACACA;
+  }
+}
+.green-icon {
+  svg rect, svg path {
+    @extend %transition-fill;
+    fill: #{$green};
+  }
+}
+.light-green-icon {
+  svg rect, svg path {
+    @extend %transition-fill;
+    fill: #{$light-green};
   }
 }
 
