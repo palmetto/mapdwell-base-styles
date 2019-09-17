@@ -13,25 +13,27 @@ $disabled-green: #D4DEBC;
 }
 
 %default-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$moon-gray};
+  svg {
+    @extend %transition-color ;
+    color: #{$moon-gray};
   }
 }
 
 %white-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$white};
+  svg {
+    @extend %transition-color ;
+    color: #{$white};
   }
 }
 
+
 %light-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$mid-gray};
+  svg {
+    @extend %transition-color ;
+    color: #{$mid-gray};
   }
 }
+
 
 $navbar-height: 5.3rem;
 $mobile-navbar-height: 4rem;

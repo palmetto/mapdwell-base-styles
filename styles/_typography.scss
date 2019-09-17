@@ -140,10 +140,3 @@ h6 {
 button, .mdc-button {
   @extend %type-button;
 }
-/* icons with dynamic text (eg search results) */
-svg {
-  tspan {
-    font-family: $subtitle-font;
-    font-weight: 700;
-  }
-}
