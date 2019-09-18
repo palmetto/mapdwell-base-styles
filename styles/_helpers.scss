@@ -361,42 +361,42 @@
 }
 
 .light-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$moon-gray};
+  svg {
+    @extend %transition-color ;
+    color: #{$moon-gray};
   }
 }
 
 .gray-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #CACACA;
+  svg {
+    @extend %transition-color ;
+    color: #CACACA;
   }
 }
 .green-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$green};
+  svg {
+    @extend %transition-color ;
+    color: #{$green};
   }
 }
 .light-green-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$light-green};
+  svg {
+    @extend %transition-color ;
+    color: #{$light-green};
   }
 }
 
 .dark-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$dark-gray};
+  svg {
+    @extend %transition-color ;
+    color: #{$dark-gray};
   }
 }
 
 .black-icon {
-  svg rect, svg path {
-    @extend %transition-fill;
-    fill: #{$black};
+  svg {
+    @extend %transition-color ;
+    color: #{$black};
   }
 }
 
