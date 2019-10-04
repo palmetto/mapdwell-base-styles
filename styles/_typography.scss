@@ -5,8 +5,11 @@ $headline-font: 'Source Sans Pro', sans-serif;
 $subtitle-font: 'Source Sans Pro', sans-serif; 
 $body-font: 'Merriweather', serif;
 
-a {
+body, a {
   color: $dark-gray;
+}
+
+a {
   text-decoration: underline;
 }
 
