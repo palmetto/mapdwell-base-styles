@@ -5,6 +5,11 @@ $headline-font: 'Source Sans Pro', sans-serif;
 $subtitle-font: 'Source Sans Pro', sans-serif; 
 $body-font: 'Merriweather', serif;
 
+a {
+  color: $dark-gray;
+  text-decoration: underline;
+}
+
 .type-h1,
 %type-h1 {
   font-family: $headline-font;
