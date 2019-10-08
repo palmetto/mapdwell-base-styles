@@ -31,6 +31,9 @@ $mdc-border-radius: 0;
 .mdc-button {
   border-radius: $mdc-border-radius;
 
+  &.white {
+    color: white;
+  }
   &.blue {
     color: $blue;
   }
@@ -87,12 +90,17 @@ $mdc-border-radius: 0;
 
 
   &.mdc-button--raised {
-    &:active, &:hover {
-      background-color: $green;
-      color: white;
+    &:hover {
+      &::before {
+        opacity: 0.06
+      }
     }
-    &.secondary-button {
-      background-color: white;
+    &:disabled {
+      color: lighten($mid-gray, 15%);
+      background-color: lighten($mid-gray, 35%);
+    }
+    &.secondary-button, &.bg-white {
+      --mdc-theme-primary: white;
       color: #{$dark-gray};
       box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.16), 0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 1px 5px 0px rgba(0, 0, 0, 0.08);
       &:disabled {
@@ -109,33 +117,53 @@ $mdc-border-radius: 0;
         box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
       }
     }
+    /* mdc button color helpers */
     &.bg-blue {
-      background-color: $blue;
+      --mdc-theme-primary: #{$blue};
       &:disabled {
         color: $blue;
-        background-color: lighten($blue, 50%);
+        background-color: lighten($blue, 45%);
       }
     }
     &.bg-green {
-      background-color: $green;
+      --mdc-theme-primary: #{$green};
       &:disabled {
-        color: $green;
-        background-color: lighten($green, 50%);
+        color: lighten($green, 20%);
+        background-color: lighten($green, 45%);
       }
     }
     &.bg-red {
-      background-color: $red;
+      --mdc-theme-primary: #{$red};
       &:disabled {
         color: $red;
         background-color: lighten($red, 50%);
+      }
+    }
+    &.bg-dark-pink {
+      --mdc-theme-primary: #{$dark-pink};
+      &:disabled {
+        color: $dark-pink;
+        background-color: lighten($dark-pink, 50%);
+      }
+    }
+    &.bg-orange {
+      --mdc-theme-primary: #{$orange};
+      &:disabled {
+        color: $orange;
+        background-color: lighten($orange, 50%);
       }
     }
   }
 
   &.mdc-button--unelevated {
     &:active, &:hover {
-      background-color: $green;
+      background-color: black;
       color: white;
+    }
+    &:disabled {
+      cursor: not-allowed;
+      background-color: rgba(0, 0, 0, 0.12);
+      color: rgba(0, 0, 0, 0.37);
     }
     &.secondary-button {
       background-color: $light-gray;
