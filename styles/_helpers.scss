@@ -290,6 +290,9 @@
   .basis-100-ns {
     flex-basis: 100%;
   }
+  .basis-66-ns {
+    flex-basis: 66%;
+  }
   .basis-50-ns {
     flex-basis: 50%;
   }
@@ -330,6 +333,9 @@
   .basis-100-l {
     flex-basis: 100%;
   }
+  .basis-66-l {
+    flex-basis: 66%;
+  }
   .basis-50-l {
     flex-basis: 50%;
   }
@@ -344,6 +350,9 @@
 @media #{$breakpoint-medium} {
   .basis-100-m {
     flex-basis: 100%;
+  }
+  .basis-66-m {
+    flex-basis: 66%;
   }
   .basis-50-m {
     flex-basis: 50%;
