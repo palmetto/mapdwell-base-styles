@@ -123,8 +123,24 @@ $mdc-border-radius: 0;
       background-color: #{$blue};
       --mdc-theme-primary: #{$blue};
       &:disabled {
-        color: $blue;
-        background-color: lighten($blue, 45%);
+        color: lighten($blue, 15%);
+        background-color: lighten($blue, 50%);
+      }
+    }
+    &.bg-light-blue {
+      background-color: #{$light-blue};
+      --mdc-theme-primary: #{$light-blue};
+      &:disabled {
+        color: lighten($light-blue, 15%);
+        background-color: lighten($light-blue, 25%);
+      }
+    }
+    &.bg-dark-blue {
+      background-color: #{$dark-blue};
+      --mdc-theme-primary: #{$dark-blue};
+      &:disabled {
+        color: lighten($dark-blue, 15%);
+        background-color: lighten($dark-blue, 35%);
       }
     }
     &.bg-green {
