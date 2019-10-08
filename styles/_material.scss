@@ -100,6 +100,7 @@ $mdc-border-radius: 0;
       background-color: lighten($mid-gray, 35%);
     }
     &.secondary-button, &.bg-white {
+      background-color: white;
       --mdc-theme-primary: white;
       color: #{$dark-gray};
       box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.16), 0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 1px 5px 0px rgba(0, 0, 0, 0.08);
@@ -119,6 +120,7 @@ $mdc-border-radius: 0;
     }
     /* mdc button color helpers */
     &.bg-blue {
+      background-color: #{$blue};
       --mdc-theme-primary: #{$blue};
       &:disabled {
         color: $blue;
@@ -126,6 +128,7 @@ $mdc-border-radius: 0;
       }
     }
     &.bg-green {
+      background-color: #{$green};
       --mdc-theme-primary: #{$green};
       &:disabled {
         color: lighten($green, 20%);
@@ -133,6 +136,7 @@ $mdc-border-radius: 0;
       }
     }
     &.bg-red {
+      background-color: #{$red};
       --mdc-theme-primary: #{$red};
       &:disabled {
         color: $red;
@@ -140,6 +144,7 @@ $mdc-border-radius: 0;
       }
     }
     &.bg-dark-pink {
+      background-color: #{$dark-pink};
       --mdc-theme-primary: #{$dark-pink};
       &:disabled {
         color: $dark-pink;
@@ -147,6 +152,7 @@ $mdc-border-radius: 0;
       }
     }
     &.bg-orange {
+      background-color: #{$orange};
       --mdc-theme-primary: #{$orange};
       &:disabled {
         color: $orange;
