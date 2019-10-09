@@ -1,5 +1,10 @@
 /* Custom Tachyons-style composable classes */
 
+/* Type Scale */
+.f45 { 
+  font-size: 1.15rem;
+}
+
 /* Spacing */
 .pb05,
 %pb05 {
@@ -290,6 +295,9 @@
   .basis-100-ns {
     flex-basis: 100%;
   }
+  .basis-66-ns {
+    flex-basis: 66%;
+  }
   .basis-50-ns {
     flex-basis: 50%;
   }
@@ -330,6 +338,9 @@
   .basis-100-l {
     flex-basis: 100%;
   }
+  .basis-66-l {
+    flex-basis: 66%;
+  }
   .basis-50-l {
     flex-basis: 50%;
   }
@@ -344,6 +355,9 @@
 @media #{$breakpoint-medium} {
   .basis-100-m {
     flex-basis: 100%;
+  }
+  .basis-66-m {
+    flex-basis: 66%;
   }
   .basis-50-m {
     flex-basis: 50%;
@@ -418,13 +432,13 @@
 }
 
 .bg-blue-gradient-light {
-  background: linear-gradient(90deg, lighten($blue, 30%), lighten($blue, 20%));
+  background: transparent linear-gradient(109deg, lighten($light-blue, 20%) 0%, $light-blue 100%);
 }
 .bg-blue-gradient {
-  background: linear-gradient(90deg, lighten($blue, 20%), $blue);
+  background: transparent linear-gradient(109deg, lighten($blue, 20%) 0%, $blue 100%);
 }
 .bg-blue-gradient-dark {
-  background: linear-gradient(90deg, $blue, darken($blue, 20%));
+  background: transparent linear-gradient(109deg, lighten($dark-blue, 20%) 0%, $dark-blue 100%);
 }
 
 .bg-green-gradient {
