@@ -43,8 +43,8 @@ $mdc-border-radius: 0;
   &.green {
     color: $green;
   }
-  &.teal {
-    color: $teal;
+  &.washed-blue {
+    color: $washed-blue;
   }
   &.light-blue {
     color: $light-blue;
@@ -149,11 +149,11 @@ $mdc-border-radius: 0;
         background-color: lighten($green, 45%);
       }
     }
-    &.bg-teal {
-      background-color: #{$teal};
+    &.bg-washed-blue {
+      background-color: #{$washed-blue};
       &:disabled {
-        color: lighten($teal, 20%);
-        background-color: lighten($teal, 45%);
+        color: lighten($washed-blue, 20%);
+        background-color: lighten($washed-blue, 45%);
       }
     }
     &.bg-red {
