@@ -495,12 +495,15 @@ button {
   }
 }
 
-.outline-light-blue-2 {
-  outline: $light-blue solid 2px;
+.outline-2 { 
+  outline: 2px solid; 
 }
-.outline-blue-2 {
-  outline: $blue solid 2px;
+.outline--light-blue {
+  outline-color: $light-blue;
 }
-.outline-dark-blue-2 {
-  outline: $dark-blue solid 2px;
+.outline--blue {
+  outline-color: $blue;
+}
+.outline--dark-blue {
+  outline-color: $dark-blue;
 }
