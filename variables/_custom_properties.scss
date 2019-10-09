@@ -11,6 +11,33 @@
 /* Buttons */
 .mdc-button {
   --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
+  
+  &.mdc-button--raised {
+    &.secondary-button, &.bg-white {
+      --mdc-theme-primary: white;
+    }
+    &.bg-blue {
+      --mdc-theme-primary: #{$blue};
+    }
+    &.bg-light-blue {
+      --mdc-theme-primary: #{$light-blue};
+    }
+    &.bg-dark-blue {
+      --mdc-theme-primary: #{$dark-blue};
+    }
+    &.bg-green {
+      --mdc-theme-primary: #{$green};
+    }
+    &.bg-red {
+      --mdc-theme-primary: #{$red};
+    }
+    &.bg-dark-pink {
+      --mdc-theme-primary: #{$dark-pink};
+    }
+    &.bg-orange {
+      --mdc-theme-primary: #{$orange};
+    }
+  }
 }
 
 /*Radio Group*/

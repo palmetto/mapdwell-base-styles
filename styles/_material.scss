@@ -101,7 +101,6 @@ $mdc-border-radius: 0;
     }
     &.secondary-button, &.bg-white {
       background-color: white;
-      --mdc-theme-primary: white;
       color: #{$dark-gray};
       box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.16), 0px 2px 2px 0px rgba(0, 0, 0, 0.1), 0px 1px 5px 0px rgba(0, 0, 0, 0.08);
       &:disabled {
@@ -121,7 +120,6 @@ $mdc-border-radius: 0;
     /* mdc button color helpers */
     &.bg-blue {
       background-color: #{$blue};
-      --mdc-theme-primary: #{$blue};
       &:disabled {
         color: lighten($blue, 15%);
         background-color: lighten($blue, 50%);
@@ -129,7 +127,6 @@ $mdc-border-radius: 0;
     }
     &.bg-light-blue {
       background-color: #{$light-blue};
-      --mdc-theme-primary: #{$light-blue};
       &:disabled {
         color: lighten($light-blue, 15%);
         background-color: lighten($light-blue, 25%);
@@ -137,7 +134,6 @@ $mdc-border-radius: 0;
     }
     &.bg-dark-blue {
       background-color: #{$dark-blue};
-      --mdc-theme-primary: #{$dark-blue};
       &:disabled {
         color: lighten($dark-blue, 15%);
         background-color: lighten($dark-blue, 35%);
@@ -145,7 +141,6 @@ $mdc-border-radius: 0;
     }
     &.bg-green {
       background-color: #{$green};
-      --mdc-theme-primary: #{$green};
       &:disabled {
         color: lighten($green, 20%);
         background-color: lighten($green, 45%);
@@ -153,7 +148,6 @@ $mdc-border-radius: 0;
     }
     &.bg-red {
       background-color: #{$red};
-      --mdc-theme-primary: #{$red};
       &:disabled {
         color: $red;
         background-color: lighten($red, 50%);
@@ -161,7 +155,6 @@ $mdc-border-radius: 0;
     }
     &.bg-dark-pink {
       background-color: #{$dark-pink};
-      --mdc-theme-primary: #{$dark-pink};
       &:disabled {
         color: $dark-pink;
         background-color: lighten($dark-pink, 50%);
@@ -169,7 +162,6 @@ $mdc-border-radius: 0;
     }
     &.bg-orange {
       background-color: #{$orange};
-      --mdc-theme-primary: #{$orange};
       &:disabled {
         color: $orange;
         background-color: lighten($orange, 50%);
