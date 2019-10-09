@@ -494,3 +494,16 @@ button {
     background-color: rgba( 0, 0, 0, .05 );
   }
 }
+
+.outline-2 { 
+  outline: 2px solid; 
+}
+.outline--light-blue {
+  outline-color: $light-blue;
+}
+.outline--blue {
+  outline-color: $blue;
+}
+.outline--dark-blue {
+  outline-color: $dark-blue;
+}
