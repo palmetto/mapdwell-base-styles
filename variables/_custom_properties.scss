@@ -28,6 +28,9 @@
     &.bg-green {
       --mdc-theme-primary: #{$green};
     }
+    &.bg-teal {
+      --mdc-theme-primary: #{$teal};
+    }
     &.bg-red {
       --mdc-theme-primary: #{$red};
     }
