@@ -585,10 +585,10 @@ button {
 }
 @keyframes shadow-pulsing {
   0% {
-    box-shadow: 0 0 0 0 rgb( black, 0.3 );
+    box-shadow: 0 0 0 0 rgba( black, 0.3 );
   }
   100% {
-    box-shadow: 0 0 30px 0px rgb( black, 0 );
+    box-shadow: 0 0 30px 0px rgba( black, 0 );
   }
 }
 .glow-pulse-orange {
