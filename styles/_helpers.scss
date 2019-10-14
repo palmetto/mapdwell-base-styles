@@ -602,3 +602,8 @@ button {
     box-shadow: 0 0 30px 0px rgba( $orange, 0.6 );
   }
 }
+
+/* inset shadows */
+.shadow-top-2 {
+  box-shadow: inset 0px 3px 4px -1px rgba(0, 0, 0, 0.2);
+}
