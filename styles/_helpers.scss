@@ -602,3 +602,11 @@ button {
     box-shadow: 0 0 30px 0px rgba( $orange, 0.6 );
   }
 }
+
+/* additional shadows */
+.shadow-6 { box-shadow: 0px 0px 25px 0px hsla( 0, 0, 0, 0.3 ); }
+.shadow-7 { box-shadow: 0px 0px 50px 0px hsla( 0, 0, 0, 0.3 ); }
+
+/* inset shadows */
+.shadow-top-2 { box-shadow: inset 0px 3px 4px -1px rgba(0, 0, 0, 0.2); }
+.shadow-top-7 { box-shadow: inset 0px 55px 50px -50px rgba(0, 0, 0, 0.3); }
