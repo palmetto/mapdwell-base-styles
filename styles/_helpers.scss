@@ -519,6 +519,12 @@
   }
 }
 
+@media #{$breakpoint-not-small} {
+  .bg-near-white-ns {
+    background-color: $near-white;
+  }
+}
+
 /** BORDER **/
 .bt--white {
   border-top-color: #{$white};
