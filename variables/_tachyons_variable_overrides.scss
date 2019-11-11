@@ -33,3 +33,7 @@ $transparent-gray: hsla(0, 0, 10, 0.75);
 /* blues for homepage, plans */
 $light-blue: #4AA2ED;
 $dark-blue: #075AA2;
+
+/* MDC-specific variables */
+$mdc-theme-primary: $dark-gray;
+$mdc-theme-secondary: $mid-gray;
