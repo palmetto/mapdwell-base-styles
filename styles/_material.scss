@@ -296,3 +296,26 @@ $mdc-border-radius: 0;
     border-radius: $mdc-border-radius;
   }
 }
+
+
+/* mdc-select */
+
+.mdc-select {
+  border-radius: 0;
+  &:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+    color: $dark-gray;
+  }
+
+}
+.mdc-select--outlined {
+  .mdc-notched-outline {
+    .mdc-notched-outline__leading, .mdc-notched-outline__trailing {
+      border-radius: 0;
+    }
+  }
+}
+.mdc-select--focused {
+  .mdc-select__dropdown-icon {
+    filter: brightness(0);
+  }
+}
