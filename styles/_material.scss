@@ -296,3 +296,9 @@ $mdc-border-radius: 0;
     border-radius: $mdc-border-radius;
   }
 }
+
+
+/* mdc-select */
+.mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-floating-label {
+  color: $black;
+}
