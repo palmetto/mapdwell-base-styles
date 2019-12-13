@@ -28,3 +28,15 @@
 .hover-bg-dark-green:hover, .hover-bg-dark-green:focus {
   background-color: darken($green, 10%);
 }
+
+/* Super/subscript overrides */
+sub,
+sup {
+  font-size: 50%;
+}
+sub {
+  bottom: -0.5em;
+}
+sup {
+  top: -0.7em;
+}
