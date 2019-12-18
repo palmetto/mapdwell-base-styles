@@ -460,10 +460,10 @@
     color: #{$green};
   }
 }
-.light-green-icon {
+.lightest-green-icon {
   svg {
     @extend %transition-color ;
-    color: #{$light-green};
+    color: #{$lightest-green};
   }
 }
 
@@ -487,30 +487,20 @@
 }
 
 /* BACKGROUND */
-.bg-transparent-gray {
-  background-color: #{$transparent-gray};
-}
+.bg-transparent-gray { background-color: #{$transparent-gray}; }
 
-.bg-disabled-green {
-  @extend %bg-disabled-green;
-}
+.bg-disabled-green { @extend %bg-disabled-green; }
 
-.bg-blue-gradient-light {
-  background: transparent linear-gradient(109deg, lighten($light-blue, 20%) 0%, $light-blue 100%);
-}
-.bg-blue-gradient {
-  background: transparent linear-gradient(109deg, lighten($blue, 20%) 0%, $blue 100%);
-}
-.bg-blue-gradient-dark {
-  background: transparent linear-gradient(109deg, lighten($dark-blue, 20%) 0%, $dark-blue 100%);
-}
+.bg-blue-gradient-light { background: transparent linear-gradient(109deg, lighten($light-blue, 20%) 0%, $light-blue 100%); }
+.bg-blue-gradient { background: transparent linear-gradient(109deg, lighten($blue, 20%) 0%, $blue 100%); }
+.bg-blue-gradient-dark { background: transparent linear-gradient(109deg, lighten($dark-blue, 20%) 0%, $dark-blue 100%); }
 
-.bg-green-gradient {
-  background: linear-gradient(90deg, lighten($green, 20%), $green);
-}
-.bg-red-gradient {
-  background: linear-gradient(90deg, lighten($red, 20%), $red);
-}
+.bg-green-gradient-light { background: transparent linear-gradient(109deg, lighten($light-green, 20%) 0%, $light-green 100%); }
+.bg-green-gradient { background: transparent linear-gradient(109deg, lighten($green, 20%) 0%, $green 100%); }
+.bg-green-gradient-dark { background: transparent linear-gradient(109deg, lighten($dark-green, 20%) 0%, $dark-green 100%); }
+
+.bg-green-gradient { background: linear-gradient(90deg, lighten($green, 20%), $green); }
+.bg-red-gradient { background: linear-gradient(90deg, lighten($red, 20%), $red); }
 
 .hover-bg-dark-orange {
   &:hover,
@@ -559,12 +549,22 @@ button {
   }
 }
 
-.bg-orange-80 {
-  background-color: rgba($orange, 0.8);
-}
-.bg-green-80 {
-  background-color: rgba($green, 0.8);
-}
+.lightest-green { color: $lightest-green; }
+.lightest-yellow { color: $lightest-yellow; }
+.lightest-orange { color: $lightest-orange; }
+.lightest-red { color: $lightest-red; }
+.lightest-purple { color: $lightest-purple; }
+.lightest-gray { color: $lightest-gray; }
+
+.bg-lightest-green { background-color: $lightest-green; }
+.bg-lightest-yellow { background-color: $lightest-yellow; }
+.bg-lightest-orange { background-color: $lightest-orange; }
+.bg-lightest-red { background-color: $lightest-red; }
+.bg-lightest-purple { background-color: $lightest-purple; }
+.bg-lightest-gray { background-color: $lightest-gray; }
+
+.bg-orange-80 { background-color: rgba($orange, 0.8); }
+.bg-green-80 { background-color: rgba($green, 0.8); }
 
 .hover-bg-black-05 {
   &:hover, &:focus {
@@ -572,18 +572,10 @@ button {
   }
 }
 
-.outline-2 { 
-  outline: 2px solid; 
-}
-.outline--light-blue {
-  outline-color: $light-blue;
-}
-.outline--blue {
-  outline-color: $blue;
-}
-.outline--dark-blue {
-  outline-color: $dark-blue;
-}
+.outline-2 { outline: 2px solid; }
+.outline--light-blue { outline-color: $light-blue; }
+.outline--blue { outline-color: $blue; }
+.outline--dark-blue { outline-color: $dark-blue; }
 
 /* pulsing effect */
 .shadow-pulse {
