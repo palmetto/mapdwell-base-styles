@@ -149,6 +149,20 @@ $mdc-border-radius: 0;
         background-color: lighten($green, 45%);
       }
     }
+    &.bg-light-green {
+      background-color: #{$light-green};
+      &:disabled {
+        color: $light-green;
+        background-color: lighten($light-green, 50%);
+      }
+    }
+    &.bg-dark-green {
+      background-color: #{$dark-green};
+      &:disabled {
+        color: $dark-green;
+        background-color: lighten($dark-green, 50%);
+      }
+    }
     &.bg-washed-blue {
       background-color: #{$washed-blue};
       &:disabled {
