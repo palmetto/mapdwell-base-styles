@@ -40,3 +40,11 @@ sub {
 sup {
   top: -0.7em;
 }
+
+/* Hovers */
+.grow {
+  -webkit-font-smoothing: antialiased;
+  &:active {
+    transform: scale(1.05);
+  }
+}
