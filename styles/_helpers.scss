@@ -832,3 +832,10 @@ button {
 .shadow-top-7 {
   box-shadow: inset 0px 55px 50px -50px rgba(0, 0, 0, 0.3);
 }
+
+.shadow-hover-shallow {
+  @extend .shadow-hover;
+  &:after {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+}
