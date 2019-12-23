@@ -2,7 +2,7 @@
 
 /* Type Scale */
 .f25 {
-  font-size: 1.85rem;
+  font-size: 1.7rem;
 }
 
 .f45 {
@@ -219,6 +219,10 @@
 
 .w6 {
   width: 40rem;
+}
+
+.w-95 {
+  width: 95%;
 }
 
 
@@ -827,4 +831,11 @@ button {
 
 .shadow-top-7 {
   box-shadow: inset 0px 55px 50px -50px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-hover-shallow {
+  @extend .shadow-hover;
+  &:after {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
 }
