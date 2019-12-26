@@ -1,7 +1,5 @@
 /* These have been separated out from _material to avoid importing them in rails, where the sass version cannot compile with them */ 
 :root {
-  --mdc-theme-primary: #{$dark-gray};
-  --mdc-theme-secondary: #{$mid-gray};
   --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
 
   /* media queries for defining  tachyons style helpers*/
