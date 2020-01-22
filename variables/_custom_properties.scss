@@ -53,3 +53,12 @@
     --mdc-ripple-fg-opacity: 0 !important;
   }
 }
+
+.mdc-slider {
+  --mdc-theme-secondary: #{$dark-gray};
+  &:not(.mdc-slider--disabled) {
+    .mdc-slider__pin {
+      color: var(--mdc-theme-primary);
+    }
+  }
+}

@@ -249,7 +249,6 @@ $mdc-border-radius: 0;
 $slider-scale: calc(15 / 21);
 $slider-scale-active: calc(27 / 21);
 .mdc-slider {
-  --mdc-theme-secondary: #{$dark-gray};
   &__thumb, &__focus-ring {
     transform: scale3d($slider-scale, $slider-scale, 1);
   }
@@ -269,7 +268,6 @@ $slider-scale-active: calc(27 / 21);
 }
 .mdc-slider:not(.mdc-slider--disabled) {
   .mdc-slider__pin {
-    color: var(--mdc-theme-primary);
     background-color: transparent;
   }
   .mdc-slider__track-container {
