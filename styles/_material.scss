@@ -248,17 +248,16 @@ $mdc-border-radius: 0;
 /* slider */
 $slider-scale: calc(15 / 21);
 $slider-scale-active: calc(27 / 21);
-.mdc-slider {
-  &__thumb, &__focus-ring {
-    transform: scale3d($slider-scale, $slider-scale, 1);
-  }
-  &__thumb {
-    outline: 2px solid white;
-    outline-offset: -1px;
-    fill: #{$dark-gray};
-    stroke: white;
-  }
+.mdc-slider__thumb, .mdc-slider__focus-ring {
+  transform: scale3d($slider-scale, $slider-scale, 1);
 }
+.mdc-slider__thumb {
+  outline: 2px solid white;
+  outline-offset: -1px;
+  fill: #{$dark-gray};
+  stroke: white;
+}
+
 .mdc-slider--discrete {
   &.mdc-slider--active {
     .mdc-slider__thumb {
