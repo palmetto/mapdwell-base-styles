@@ -1,12 +1,16 @@
 /* Custom Tachyons-style composable classes */
 
 /* Type Scale */
-.f25 {
-  font-size: 1.7rem;
-}
+.f0 { font-size: 4rem; }
+.f15 { font-size: 2.5rem; }
+.f25 { font-size: 1.7rem; }
+.f45 { font-size: 1.1rem; }
 
-.f45 {
-  font-size: 1.1rem;
+@media #{$breakpoint-not-small} {
+  .f0-ns { font-size: 4rem; }
+  .f15-ns { font-size: 2.5rem; }
+  .f25-ns { font-size: 1.7rem; }
+  .f45-ns { font-size: 1.1rem; }
 }
 
 /* Spacing */
@@ -671,6 +675,10 @@ button {
     }
 
   }
+}
+
+.teal {
+  color: $teal;
 }
 
 .light-green {
