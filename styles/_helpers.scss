@@ -315,8 +315,19 @@
 }
 
 .center-absolute {
+  top: 50%;
+  margin: auto 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-h-absolute {
   margin: auto 50%;
   transform: translateX(-50%);
+}
+
+.center-v-absolute {
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 
