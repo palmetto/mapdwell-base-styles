@@ -10,8 +10,7 @@ Watchman can be used to access load local, in-development files into an applicat
 
 - `watchman -- trigger $PWD cr '**/*.scss' -- sh cp_to_mapdwell.sh `
 - `watchman -- trigger $PWD cr '**/*.scss' -- sh cp_to_fluxboard.sh `
-- `watchman -- trigger $PWD cr '**/*.scss' -- sh cp_to_solarsystem.sh`
 
-Keep in mind this solution assumes `base_styles` is in the same local directory as the `mapdwell`, `fluxboard` and `solarsystem` repos. Use `watchman watch-del-all` to manually remove these commands.
+Keep in mind this solution assumes `base_styles` is in the same local directory as the `mapdwell` and `fluxboard` repos. Use `watchman watch-del-all` to manually remove these commands.
 
 ,,,
