@@ -14,6 +14,6 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/mapdwellapps/base-styles#readme",
   "dependencies": {
-    "tachyons-sass": "^4.9.5"
+    "tachyons-sass": "github:mapdwell/tachyons-sass"
   }
 }
