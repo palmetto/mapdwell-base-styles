@@ -1,18 +1,5 @@
 /* Custom Tachyons-style composable classes */
 
-/* Type Scale */
-.f0 { font-size: 4rem; }
-.f15 { font-size: 2.5rem; }
-.f25 { font-size: 1.7rem; }
-.f45 { font-size: 1.1rem; }
-
-@media #{$breakpoint-not-small} {
-  .f0-ns { font-size: 4rem; }
-  .f15-ns { font-size: 2.5rem; }
-  .f25-ns { font-size: 1.7rem; }
-  .f45-ns { font-size: 1.1rem; }
-}
-
 /* Spacing */
 .pb05,
 %pb05 {
