@@ -46,6 +46,10 @@ $mdc-border-radius: 0;
   &.yellow { color: $yellow; }
   &.linkedin { color: $linkedin-color; }
   &.facebook { color: $facebook-color; }
+  &.apple { color: $apple-color; }
+  &.bg-linkedin { background-color: $linkedin-color; }
+  &.bg-facebook { background-color: $facebook-color; }
+  &.bg-apple { background-color: $apple-color; }
 
   &.f1 { font-size: $font-size-1; }  
   &.f2 { font-size: $font-size-2; }
