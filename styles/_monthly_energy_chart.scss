@@ -1,0 +1,19 @@
+/* Styles for the load profile chart displayed in Fluxboard and the Fluxboard building report. */
+
+.monthly-energy-chart {
+  .y-axis {
+    .domain {
+      /* Hide the vertical y-axis lines */
+      display: none;
+    }
+  }
+  .error-bar {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  &:hover {
+    .error-bar {
+      opacity: 1;
+    }
+  }
+}
