@@ -7,6 +7,7 @@
       display: none;
     }
   }
+
   .error-bar {
     opacity: 0;
     transition: opacity 0.3s;
@@ -15,5 +16,25 @@
     .error-bar {
       opacity: 1;
     }
+  }
+  
+  .transparent-rect {
+    fill: transparent;
+  }
+
+  .peak-electricity-line {
+    fill: none;
+  }
+
+  .axis-label {
+    font-size: 10px;
+  }
+
+  .total.load-bar {
+    fill: transparent;
+  }
+
+  .pv.load-bar {
+    fill-opacity: 0.4;
   }
 }
