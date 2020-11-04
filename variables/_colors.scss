@@ -1,6 +1,11 @@
 $transparent-black: rgba(0, 0, 0, 0.85);
 $transparent-white: rgba(255, 255, 255, 0.85);
 $disabled-green: #D4DEBC;
+$intense-orange: #FF5722;
+$linkedin-color: #0E65C2;
+$facebook-color: #1977F2;
+$apple-color: #000000;
+$body-color: $dark-gray;
 
 %bg-transparent-black {
   background-color: $transparent-black;
@@ -34,12 +39,5 @@ $disabled-green: #D4DEBC;
   }
 }
 
-
 $navbar-height: 5.3rem;
 $mobile-navbar-height: 4rem;
-
-$body-color: $dark-gray;
-
-$linkedin-color: #0E65C2;
-$facebook-color: #1977F2;
-$apple-color: #000000;
