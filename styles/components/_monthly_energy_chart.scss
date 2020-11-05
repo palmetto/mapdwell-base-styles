@@ -1,11 +1,52 @@
+@import "../../variables";
+
 /* Styles for the load profile chart displayed in Fluxboard and the Fluxboard building report. */
 
 .monthly-energy-chart {
-  .y-axis {
-    .domain {
-      /* Hide the vertical y-axis lines */
-      display: none;
+  .title-electricity {
+    color: $dark-gray;
+  }
+
+  .title-total {
+    color: $gray;
+  }
+
+  .title-pv {
+    color: $gold;
+  }
+
+  .title-peak-demand {
+    color: $intense-orange;
+  }
+
+  .axis-label {
+    font-size: 10px;
+  }
+
+  .x-axis-label {
+    color: $dark-gray;
+  }
+
+  .y-axis, .y-axis-label {
+    &.left {
+      color: $dark-gray;
     }
+    &.right {
+      color: $intense-orange;
+    }
+  }
+
+  .y-axis .domain {
+    /* Hide the vertical y-axis lines */
+    display: none;
+  }
+
+  .grid {
+    color: $light-gray;
+  }
+
+  .bottom-tick {
+    color: $dark-gray;
   }
 
   .error-bar {
@@ -24,17 +65,19 @@
 
   .peak-electricity-line {
     fill: none;
+    color: $intense-orange;
   }
 
-  .axis-label {
-    font-size: 10px;
-  }
-
-  .total.load-bar {
+  .total {
     fill: transparent;
   }
+  
+  .total, .electric {
+    color: $light-silver;
+  }
 
-  .pv.load-bar {
+  .pv {
     fill-opacity: 0.4;
+    color: $gold;
   }
 }
