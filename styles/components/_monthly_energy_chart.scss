@@ -3,6 +3,10 @@
 /* Styles for the load profile chart displayed in Fluxboard and the Fluxboard building report. */
 
 .monthly-energy-chart {
+  .title-month {
+    font-weight: bold;
+  }
+  
   .title-electricity {
     color: $dark-gray;
   }
