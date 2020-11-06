@@ -1,21 +1,54 @@
 /* Styles for the load profile chart displayed in Fluxboard and the Fluxboard building report. */
 
 .monthly-energy-chart {
-  .y-axis {
-    .domain {
-      /* Hide the vertical y-axis lines */
-      display: none;
+  .title-month {
+    font-weight: bold;
+  }
+
+  .title-electricity {
+    color: $dark-gray;
+  }
+
+  .title-total {
+    color: $gray;
+  }
+
+  .title-pv {
+    color: $gold;
+  }
+
+  .title-peak-demand {
+    color: $intense-orange;
+  }
+
+  .axis-label {
+    font-size: 10px;
+  }
+
+  .x-axis-label {
+    color: $dark-gray;
+  }
+
+  .y-axis, .y-axis-label {
+    &.left {
+      color: $dark-gray;
+    }
+    &.right {
+      color: $intense-orange;
     }
   }
 
-  .error-bar {
-    opacity: 0;
-    transition: opacity 0.3s;
+  .y-axis .domain {
+    /* Hide the vertical y-axis lines */
+    display: none;
   }
-  &:hover {
-    .error-bar {
-      opacity: 1;
-    }
+
+  .grid {
+    color: $light-gray;
+  }
+
+  .bottom-tick {
+    color: $dark-gray;
   }
   
   .transparent-rect {
@@ -24,17 +57,45 @@
 
   .peak-electricity-line {
     fill: none;
+    color: $intense-orange;
   }
 
-  .axis-label {
-    font-size: 10px;
+  .load-bar {
+    &.total {
+      fill: transparent;
+      color: $light-silver;
+    }
+    
+    &.electric {
+      color: $light-silver;
+    }
+
+    &.pv {
+      fill-opacity: 0.4;
+      color: $gold;
+    }
   }
 
-  .total.load-bar {
-    fill: transparent;
-  }
+  .error-bar {
+    opacity: 0;
+    transition: opacity 0.3s;
 
-  .pv.load-bar {
-    fill-opacity: 0.4;
+    &.total {
+      color: $dark-gray;
+    }
+
+    &.electric {
+      color: $dark-gray;
+    }
+
+    &.peak {
+      color: $intense-orange;
+    }
+  }
+  
+  &:hover {
+    .error-bar {
+      opacity: 1;
+    }
   }
 }
