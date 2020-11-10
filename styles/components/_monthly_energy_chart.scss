@@ -21,6 +21,10 @@
     color: $intense-orange;
   }
 
+  .title-battery {
+    color: $blue;
+  }
+
   .axis-label {
     font-size: 10px;
   }
@@ -73,6 +77,10 @@
     &.pv {
       fill-opacity: 0.4;
       color: $gold;
+    }
+
+    &.battery {
+      color: $blue;
     }
   }
 
