@@ -4,33 +4,26 @@ $light-silver: #AAA;
 $light-gray: #F2F2F2;
 $dark-gray: #4A4A4A;
 $gray: #777;
-$gold: #FFB700;
-$intense-orange: #FF5722;
-$blue: #357EDD;
 
 .monthly-energy-chart {
   .title-month {
     font-weight: bold;
   }
 
-  .title-electricity {
-    color: $dark-gray;
+  .color-non-electric {
+    color: #b7b7b7;
   }
 
-  .title-total {
-    color: $gray;
+  .color-electric {
+    color: #757575;
   }
 
-  .title-pv {
-    color: $gold;
+  .color-pv {
+    color: #e7980f;
   }
-
-  .title-peak-demand {
-    color: $intense-orange;
-  }
-
-  .title-battery {
-    color: $blue;
+  
+  .color-battery{
+    color: #26d014;
   }
 
   .axis-label {
@@ -44,9 +37,6 @@ $blue: #357EDD;
   .y-axis, .y-axis-label {
     &.left {
       color: $dark-gray;
-    }
-    &.right {
-      color: $intense-orange;
     }
   }
 
@@ -67,46 +57,9 @@ $blue: #357EDD;
     fill: transparent;
   }
 
-  .peak-electricity-line {
-    fill: none;
-    color: $intense-orange;
-  }
-
-  .load-bar {
-    &.total {
-      fill: transparent;
-      color: $light-silver;
-    }
-    
-    &.electric {
-      color: $light-silver;
-    }
-
-    &.pv {
-      fill-opacity: 0.4;
-      color: $gold;
-    }
-
-    &.battery {
-      color: $blue;
-    }
-  }
-
   .error-bar {
     opacity: 0;
     transition: opacity 0.3s;
-
-    &.total {
-      color: $dark-gray;
-    }
-
-    &.electric {
-      color: $dark-gray;
-    }
-
-    &.peak {
-      color: $intense-orange;
-    }
   }
   
   &:hover {
