@@ -1,9 +1,9 @@
 /* Styles for the load profile chart displayed in Fluxboard and the Fluxboard building report. */
 
-$light-silver: #AAA;
-$light-gray: #F2F2F2;
 $dark-gray: #4A4A4A;
 $gray: #777;
+$light-silver: #AAA;
+$moon-gray: #D8D8D8;
 
 .monthly-energy-chart {
   .title-month {
@@ -46,7 +46,7 @@ $gray: #777;
   }
 
   .grid {
-    color: $light-gray;
+    color: $moon-gray;
   }
 
   .bottom-tick {
