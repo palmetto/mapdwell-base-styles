@@ -1,7 +1,7 @@
 /* Styles for the load profile chart displayed in Fluxboard and the Fluxboard building report. */
 
 $dark-gray: #4A4A4A;
-$gray: #777;
+$gray: #757575;
 $light-silver: #AAA;
 $moon-gray: #D8D8D8;
 
@@ -15,7 +15,7 @@ $moon-gray: #D8D8D8;
   }
 
   .color-electric {
-    color: #757575;
+    color: $gray;
   }
 
   .color-pv {
@@ -24,6 +24,19 @@ $moon-gray: #D8D8D8;
   
   .color-battery{
     color: #26d014;
+  }
+
+  .load-label {
+    stroke: $gray;
+    fill: white;
+  }
+
+  .label-text {
+    fill: white;
+
+    &.load-label-text {
+      fill: $gray;
+    }
   }
 
   .axis-label {
