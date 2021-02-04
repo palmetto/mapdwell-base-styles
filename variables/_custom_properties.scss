@@ -10,7 +10,7 @@
 .mdc-button {
   --mdc-ripple-fg-opacity: 0; /* TODO: get rid of ripple js? */
   
-  &.mdc-button--raised {
+  &.mdc-button--raised, &.mdc-button--outlined {
     &.secondary-button, &.bg-white {
       --mdc-theme-primary: white;
     }
