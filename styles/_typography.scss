@@ -1,7 +1,7 @@
 /* Root size 2rem = 15px inherited from _base.scss */
 
 $headline-font: 'Source Sans Pro', sans-serif;
-/* remeber to update app-theme.scss too */
+/* remember to update app-theme.scss too */
 $subtitle-font: 'Source Sans Pro', sans-serif; 
 $body-font: 'Merriweather', serif;
 
@@ -16,17 +16,25 @@ a {
 .type-h1,
 %type-h1 {
   font-family: $headline-font;
-  font-size: 6.4rem;
+  font-size: 4rem;
   letter-spacing: -0.1rem;
   font-weight: 300;
+
+  @media #{$breakpoint-not-small} {
+    font-size: 6.4rem;
+  }
 }
 
 .type-h2,
 %type-h2 {
   font-family: $headline-font;
-  font-size: 4rem;
+  font-size: 3.5rem;
   letter-spacing: -0.033333rem;
   font-weight: 400;
+
+  @media #{$breakpoint-not-small} {
+    font-size: 4rem;
+  }
 }
 
 .type-h3,
