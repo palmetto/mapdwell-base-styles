@@ -38,6 +38,9 @@
     &.bg-orange {
       --mdc-theme-primary: #{$orange};
     }
+    &.bg-purple {
+      --mdc-theme-primary: #{$purple};
+    }
   }
 }
 

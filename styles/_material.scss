@@ -159,6 +159,13 @@ $mdc-border-radius: 0;
         background-color: lighten($orange, 50%);
       }
     }
+    &.bg-purple {
+      background-color: #{$purple};
+      &:disabled {
+        color: $purple;
+        background-color: lighten($purple, 50%);
+      }
+    }
   }
 
   &.mdc-button--unelevated {
