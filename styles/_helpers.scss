@@ -855,6 +855,7 @@ button {
   }
 }
 
-.overflow-scroll-touch {
+.overflow-auto {
+  /* fixes inner-element scrolling on iOS devices */
   -webkit-overflow-scrolling: touch;
 }
