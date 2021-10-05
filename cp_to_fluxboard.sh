@@ -1,1 +1,1 @@
-cp -r * ../fluxboard/node_modules/base-styles
+cp -r * ../fluxboard/node_modules/mapdwell-base-styles
