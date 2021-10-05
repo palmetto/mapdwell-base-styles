@@ -1,5 +1,5 @@
 {
-  "name": "base-styles",
+  "name": "mapdwell-base-styles",
   "version": "1.3.0",
   "description": "Shared styles and variables for front end and back board Fluxboard apps.",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/mapdwellapps/base-styles.git"
+    "url": "git+https://github.com/palmetto/mapdwell-base-styles.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/mapdwellapps/base-styles#readme",
+  "homepage": "https://github.com/palmetto/mapdwell-base-styles#readme",
   "dependencies": {
-    "tachyons-sass": "github:mapdwell/tachyons-sass"
+    "tachyons-sass": "github:palmetto/tachyons-sass"
   }
 }
