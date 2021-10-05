@@ -1,4 +1,4 @@
-# fluxboard-styles
+# mapdwell-base-styles
 
 Shared styles and variables for front end and back end Fluxboard apps.
 
