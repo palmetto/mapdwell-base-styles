@@ -1,26 +1,24 @@
-@import '../_variables';
-
 /* Custom Tachyons-style composable classes */
 
 /* Spacing */
 .pb05,
 %pb05 {
-  padding-bottom: 0.1rem;
+  padding-bottom: $spacing-05;
 }
 
 .pt05,
 %pt05 {
-  padding-top: 0.1rem;
+  padding-top: $spacing-05;
 }
 
 .pl05,
 %pl05 {
-  padding-left: 0.1rem;
+  padding-left: $spacing-05;
 }
 
 .pr05,
 %pr05 {
-  padding-right: 0.1rem;
+  padding-right: $spacing-05;
 }
 
 .pv05 {
@@ -35,22 +33,22 @@
 
 .pb15,
 %pb15 {
-  padding-bottom: 0.325rem;
+  padding-bottom: $spacing-15;
 }
 
 .pt15,
 %pt15 {
-  padding-top: 0.325rem;
+  padding-top: $spacing-15;
 }
 
 .pl15,
 %pl15 {
-  padding-left: 0.325rem;
+  padding-left: $spacing-15;
 }
 
 .pr15,
 %pr15 {
-  padding-right: 0.325rem;
+  padding-right: $spacing-15;
 }
 
 .pv15 {
@@ -65,22 +63,22 @@
 
 .pb25,
 %pb25 {
-  padding-bottom: 0.7rem;
+  padding-bottom: $spacing-25;
 }
 
 .pt25,
 %pt25 {
-  padding-top: 0.7rem;
+  padding-top: $spacing-25;
 }
 
 .pl25,
 %pl25 {
-  padding-left: 0.7rem;
+  padding-left: $spacing-25;
 }
 
 .pr25,
 %pr25 {
-  padding-right: 0.7rem;
+  padding-right: $spacing-25;
 }
 
 .pv25 {
@@ -95,22 +93,22 @@
 
 .pl35,
 %pl35 {
-  padding-left: 1.5rem;
+  padding-left: $spacing-35;
 }
 
 .pr35,
 %pr35 {
-  padding-right: 1.5rem;
+  padding-right: $spacing-35;
 }
 
 .pb35,
 %pb35 {
-  padding-bottom: 1.5rem;
+  padding-bottom: $spacing-35;
 }
 
 .pt35,
 %pt35 {
-  padding-top: 1.5rem;
+  padding-top: $spacing-35;
 }
 
 .pv35 {
@@ -125,22 +123,22 @@
 
 .mb25,
 %mb25 {
-  margin-bottom: 0.75rem;
+  margin-bottom: $spacing-25;
 }
 
 .mt25,
 %mt25 {
-  margin-top: 0.75rem;
+  margin-top: $spacing-25;
 }
 
 .ml25,
 %ml25 {
-  margin-left: 0.75rem;
+  margin-left: $spacing-25;
 }
 
 .mr25,
 %mr25 {
-  margin-right: 0.75rem;
+  margin-right: $spacing-25;
 }
 
 .mh25 {
@@ -150,22 +148,22 @@
 
 .mb35,
 %mb35 {
-  margin-bottom: 1.5rem;
+  margin-bottom: $spacing-35;
 }
 
 .mt35,
 %mt35 {
-  margin-top: 1.5rem;
+  margin-top: $spacing-35;
 }
 
 .ml35,
 %ml35 {
-  margin-left: 1.5rem;
+  margin-left: $spacing-35;
 }
 
 .mr35,
 %mr35 {
-  margin-right: 1.5rem;
+  margin-right: $spacing-35;
 }
 
 .mh35 {
@@ -175,12 +173,12 @@
 
 .pr45,
 %pr45 {
-  padding-right: 3.25rem;
+  padding-right: $spacing-45;
 }
 
 .pl45,
 %pl45 {
-  padding-left: 3.25rem;
+  padding-left: $spacing-45;
 }
 
 .ph45 {
@@ -190,12 +188,12 @@
 
 .pr55,
 %pr55 {
-  padding-right: 6rem;
+  padding-right: $spacing-55;
 }
 
 .pl55,
 %pl55 {
-  padding-left: 6rem;
+  padding-left: $spacing-55;
 }
 
 .ph55 {
@@ -206,11 +204,11 @@
 /* SIZE */
 .w25 {
   /* between w2 and w3 */
-  width: 3rem;
+  width: $width-25;
 }
 
 .w6 {
-  width: 40rem;
+  width: $width-6;
 }
 
 .w-95 {
@@ -235,37 +233,37 @@
 }
 
 .min-w3 {
-  min-width: 4rem;
+  min-width: $width-3;
 }
 
 .h025 {
-  height: 0.25rem;
+  height: $height-025;
 }
 
 .h05 {
-  height: 0.5rem;
+  height: $height-05;
 }
 
 .h25 {
   /* between h2 and h3 */
-  height: 3rem;
+  height: $height-25;
 }
 
 .h35 {
   /* between h3 and h4 */
-  height: 5rem;
+  height: $height-35;
 }
 
 .min-h3 {
-  min-height: 6rem;
+  min-height: $min-height-3;
 }
 
 .min-h4 {
-  min-height: 8rem;
+  min-height: $min-height-4;
 }
 
 .min-h5 {
-  min-height: 16rem;
+  min-height: $min-height-5;
 }
 
 
@@ -306,67 +304,67 @@
 
 
 .top-3 {
-  top: 3rem;
+  top: $position-3;
 }
 
 .right-3 {
-  right: 3rem;
+  right: $position-3;
 }
 
 .bottom-3 {
-  bottom: 3rem;
+  bottom: $position-3;
 }
 
 .left-3 {
-  left: 3rem;
+  left: $position-3;
 }
 
 .top-4 {
-  top: 4rem;
+  top: $position-4;
 }
 
 .right-4 {
-  right: 4rem;
+  right: $position-4;
 }
 
 .bottom-4 {
-  bottom: 4rem;
+  bottom: $position-4;
 }
 
 .left-4 {
-  left: 4rem;
+  left: $position-4;
 }
 
 .top-5 {
-  top: 5rem;
+  top: $position-5;
 }
 
 .right-5 {
-  right: 5rem;
+  right: $position-5;
 }
 
 .bottom-5 {
-  bottom: 5rem;
+  bottom: $position-5;
 }
 
 .left-5 {
-  left: 5rem;
+  left: $position-5;
 }
 
 .top-6 {
-  top: 6rem;
+  top: $position-6;
 }
 
 .right-6 {
-  right: 6rem;
+  right: $position-6;
 }
 
 .bottom-6 {
-  bottom: 6rem;
+  bottom: $position-6;
 }
 
 .left-6 {
-  left: 6rem;
+  left: $position-6;
 }
 
 
@@ -453,33 +451,33 @@
   }
 
   .ph45-ns {
-    padding-right: 3.25rem;
-    padding-left: 3.25rem;
+    padding-right: $spacing-45;
+    padding-left: $spacing-45;
   }
 
   .ph55-ns {
-    padding-right: 6rem;
-    padding-left: 6rem;
+    padding-right: $spacing-55;
+    padding-left: $spacing-55;
   }
 
   .ml35-ns {
-    margin-left: 1.5rem;
+    margin-left: $spacing-35;
   }
 
   .mr35-ns {
-    margin-right: 1.5rem;
+    margin-right: $spacing-35;
   }
 
   .min-h3-ns {
-    min-height: 6rem;
+    min-height: $min-height-3;
   }
 
   .min-h4-ns {
-    min-height: 8rem;
+    min-height: $min-height-4;
   }
 
   .min-h5-ns {
-    min-height: 16rem;
+    min-height: $min-height-5;
   }
 
 }

@@ -1,0 +1,62 @@
+/* 
+  These rem values were originally chosen for a root font size of 15px.
+  If the root font-size is different, set a rem factor of 15 divided by the root font size.
+*/
+$rem-factor: 1 !default;
+
+/* styles/_typography.scss */
+$font-size-h1: 4rem * $rem-factor;
+$font-size-h1-not-small: 6.4rem * $rem-factor;
+$font-size-h2: 3.5rem * $rem-factor;
+$font-size-h2-not-small: 4rem * $rem-factor;
+$font-size-h3: 3.2rem * $rem-factor;
+$font-size-h4: 2.266667rem * $rem-factor;
+$font-size-h5: 1.6rem * $rem-factor;
+$font-size-h6: 1.333333rem * $rem-factor;
+$font-size-s1: 1.066667rem * $rem-factor;
+$font-size-s2: 0.933333rem * $rem-factor;
+$font-size-b1: 0.8rem * $rem-factor;
+$font-size-b2: 0.8rem * $rem-factor;
+$font-size-button: 0.933333rem * $rem-factor;
+$font-size-caption: 0.8rem * $rem-factor;
+$font-size-overline: 0.666667rem * $rem-factor;
+$letter-spacing-b1: 0.022rem * $rem-factor;
+$letter-spacing-h1: -0.1rem * $rem-factor;
+$letter-spacing-h2: -0.033333rem * $rem-factor;
+$letter-spacing-h4: 0.016667rem * $rem-factor;
+$letter-spacing-h6: 0.01rem * $rem-factor;
+$letter-spacing-s1: 0.01rem * $rem-factor;
+$letter-spacing-s2: 0.006667rem * $rem-factor;
+$letter-spacing-b2: 0.014rem * $rem-factor;
+$letter-spacing-button: 0.09rem * $rem-factor;
+$letter-spacing-caption: 0.026667rem * $rem-factor;
+$letter-spacing-overline: 0.1rem * $rem-factor;
+$line-height-s1: 1.6rem * $rem-factor;
+$line-height-s2: 1.333333rem * $rem-factor;
+$line-height-caption: 1.066667rem * $rem-factor;
+$line-height-overline: 1.066667rem * $rem-factor;
+
+/* styles/_helpers.scss */
+$spacing-05: 0.1rem * $rem-factor;
+$spacing-15: 0.325rem * $rem-factor;
+$spacing-25: 0.7rem * $rem-factor;
+$spacing-35: 1.5rem * $rem-factor;
+$spacing-45: 3.25rem * $rem-factor;
+$spacing-55: 6rem * $rem-factor;
+$width-25: 3rem * $rem-factor;
+$width-6: 40rem * $rem-factor;
+$height-025: 0.25rem * $rem-factor;
+$height-05: 0.5rem * $rem-factor;
+$height-25: 3rem * $rem-factor;
+$height-35: 5rem * $rem-factor;
+$min-height-3: 6rem * $rem-factor;
+$min-height-4: 8rem * $rem-factor;
+$min-height-5: 16rem * $rem-factor;
+$position-3: 3rem * $rem-factor;
+$position-4: 4rem * $rem-factor;
+$position-5: 5rem * $rem-factor;
+$position-6: 6rem * $rem-factor;
+
+/* Variables used in app styles */
+$navbar-height: 5.3rem * $rem-factor;
+$mobile-navbar-height: 4rem * $rem-factor;
