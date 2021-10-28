@@ -4,6 +4,8 @@ $mdc-border-radius: 0;
 /* textfields */
 .mdc-text-field__input {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem * $rem-factor;
+  line-height: 1.75rem * $rem-factor;
 }
 
 .mdc-text-field--outlined .mdc-text-field__input{
@@ -310,4 +312,10 @@ $mdc-border-radius: 0;
   .mdc-select__dropdown-icon {
     filter: brightness(0);
   }
+}
+
+/* floating labels */
+
+.mdc-floating-label {
+  font-size: 1rem * $rem-factor;
 }
