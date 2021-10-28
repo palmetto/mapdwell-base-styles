@@ -12,7 +12,7 @@ $mdc-border-radius: 0;
 }
 
 .mdc-text-field:not(.mdc-text-field--textarea){
-  height: 3.5rem;
+  height: $mdc-text-field-height;
 }
 
 .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {
@@ -232,7 +232,7 @@ $mdc-border-radius: 0;
 }
 
 .mdc-list-item__graphic {
-  margin-right: 1rem;
+  margin-right: $mdc-list-item-graphic-margin-right;
   svg {
     display: block;
   }

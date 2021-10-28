@@ -57,6 +57,10 @@ $position-4: 4rem * $rem-factor;
 $position-5: 5rem * $rem-factor;
 $position-6: 6rem * $rem-factor;
 
+/* styles/_material.scss */
+$mdc-text-field-height: 3.5rem * $rem-factor;
+$mdc-list-item-graphic-margin-right: 1rem * $rem-factor;
+
 /* Variables used in app styles */
 $navbar-height: 5.3rem * $rem-factor;
 $mobile-navbar-height: 4rem * $rem-factor;
