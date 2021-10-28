@@ -1,7 +1,6 @@
 /*not actually a material variable*/
 $mdc-border-radius: 0;
 
-
 /* textfields */
 .mdc-text-field__input {
   font-family: "Source Sans Pro", sans-serif;
@@ -12,7 +11,7 @@ $mdc-border-radius: 0;
 }
 
 .mdc-text-field:not(.mdc-text-field--textarea){
-  height: $mdc-text-field-height;
+  height: 3.5rem * $rem-factor;
 }
 
 .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {
@@ -232,7 +231,7 @@ $mdc-border-radius: 0;
 }
 
 .mdc-list-item__graphic {
-  margin-right: $mdc-list-item-graphic-margin-right;
+  margin-right: 1rem * $rem-factor;
   svg {
     display: block;
   }

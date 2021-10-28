@@ -1,5 +1,19 @@
 /* Custom Tachyons-style composable classes */
 
+$spacing-05: 0.1rem * $rem-factor;
+$spacing-15: 0.325rem * $rem-factor;
+$spacing-25: 0.7rem * $rem-factor;
+$spacing-35: 1.5rem * $rem-factor;
+$spacing-45: 3.25rem * $rem-factor;
+$spacing-55: 6rem * $rem-factor;
+$min-height-3: 6rem * $rem-factor;
+$min-height-4: 8rem * $rem-factor;
+$min-height-5: 16rem * $rem-factor;
+$position-3: 3rem * $rem-factor;
+$position-4: 4rem * $rem-factor;
+$position-5: 5rem * $rem-factor;
+$position-6: 6rem * $rem-factor;
+
 /* Spacing */
 .pb05,
 %pb05 {
@@ -204,11 +218,11 @@
 /* SIZE */
 .w25 {
   /* between w2 and w3 */
-  width: $width-25;
+  width: 3rem * $rem-factor;
 }
 
 .w6 {
-  width: $width-6;
+  width: 40rem * $rem-factor;
 }
 
 .w-95 {
@@ -233,25 +247,25 @@
 }
 
 .min-w3 {
-  min-width: $width-3;
+  min-width: 4rem * $rem-factor;
 }
 
 .h025 {
-  height: $height-025;
+  height: 0.25rem * $rem-factor;
 }
 
 .h05 {
-  height: $height-05;
+  height: 0.5rem * $rem-factor;
 }
 
 .h25 {
   /* between h2 and h3 */
-  height: $height-25;
+  height: 3rem * $rem-factor;
 }
 
 .h35 {
   /* between h3 and h4 */
-  height: $height-35;
+  height: 5rem * $rem-factor;
 }
 
 .min-h3 {
