@@ -240,6 +240,8 @@ $mdc-border-radius: 0;
 }
 
 .mdc-list {
+  font-size: 1rem * $rem-factor;
+
   .mdc-list-item {
     .mdc-list-item__primary-text, .mdc-list-item__secondary-text  {
       &:before {
