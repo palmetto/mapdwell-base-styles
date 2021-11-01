@@ -1,6 +1,6 @@
 {
   "name": "mapdwell-base-styles",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Shared styles and variables for front end and back board Fluxboard apps.",
   "main": "index.js",
   "scripts": {

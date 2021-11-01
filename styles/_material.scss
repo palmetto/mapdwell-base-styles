@@ -1,10 +1,11 @@
 /*not actually a material variable*/
 $mdc-border-radius: 0;
 
-
 /* textfields */
 .mdc-text-field__input {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem * $rem-factor;
+  line-height: 1.75rem * $rem-factor;
 }
 
 .mdc-text-field--outlined .mdc-text-field__input{
@@ -12,7 +13,7 @@ $mdc-border-radius: 0;
 }
 
 .mdc-text-field:not(.mdc-text-field--textarea){
-  height: 3.5rem;
+  height: 3.5rem * $rem-factor;
 }
 
 .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {
@@ -232,13 +233,16 @@ $mdc-border-radius: 0;
 }
 
 .mdc-list-item__graphic {
-  margin-right: 1rem;
+  margin-right: 1rem * $rem-factor;
   svg {
     display: block;
   }
 }
 
 .mdc-list {
+  font-size: 1rem * $rem-factor;
+  line-height: 1.5rem * $rem-factor;
+
   .mdc-list-item {
     .mdc-list-item__primary-text, .mdc-list-item__secondary-text  {
       &:before {
@@ -311,4 +315,10 @@ $mdc-border-radius: 0;
   .mdc-select__dropdown-icon {
     filter: brightness(0);
   }
+}
+
+/* floating labels */
+
+.mdc-floating-label {
+  font-size: 1rem * $rem-factor;
 }

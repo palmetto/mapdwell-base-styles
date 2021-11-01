@@ -1,0 +1,8 @@
+/* 
+  These rem values were originally chosen for a root font size of 15px.
+  If the root font-size is different, set a rem factor of 15 divided by the root font size.
+*/
+$rem-factor: 1 !default;
+
+$navbar-height: 5.3rem * $rem-factor;
+$mobile-navbar-height: 4rem * $rem-factor;
